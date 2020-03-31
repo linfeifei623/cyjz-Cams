@@ -1,0 +1,20 @@
+/**
+
+ @Name：layuiAdmin 公共业务
+ @Author：贤心
+ @Site：http://www.layui.com/admin/
+ @License：LPPL
+    
+ */
+ 
+layui.define(function(exports){
+  var $ = layui.$
+  ,layer = layui.layer
+  ,laytpl = layui.laytpl
+  ,setter = layui.setter
+  ,view = layui.view
+  ,admin = layui.admin;
+
+  //对外暴露的接口
+  exports('home', {});
+});
